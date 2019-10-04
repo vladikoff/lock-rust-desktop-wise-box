@@ -14,6 +14,10 @@ function createWindow () {
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: true,
+      'web-preferences': {
+        'web-security': false
+      },
+      webPreferences: { webSecurity: false }
     }
   })
 

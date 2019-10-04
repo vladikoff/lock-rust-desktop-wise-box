@@ -4,13 +4,19 @@
   "description": "lock-rust-desktop-wise-box",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-build-env neon build a-s-neon"
   },
   "repository": "https://github.com/vladikoff/lock-rust-desktop-wise-box",
   "devDependencies": {
-    "electron": "^6.0.11"
+    "electron": "^6.0.11",
+    "electron-build-env": "^0.2.0",
+    "electron-rebuild": "^1.8.6",
+    "neon-cli": "^0.3.1"
   },
   "dependencies": {
-    "electron-oauth-helper": "^5.0.1"
+    "a-s-neon": "github:eoger/a-s-neon-bindings",
+    "electron-oauth-helper": "^5.0.1",
+    "tabulator-tables": "^4.4.3"
   }
 }
