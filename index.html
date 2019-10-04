@@ -1,0 +1,40 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--  <head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Hello World!</title>-->
+<!--  </head>-->
+<!--  <body>-->
+<!--    <h1>Hello World!</h1>-->
+<!--    We are using Node.js <span id="node-version"></span>,-->
+<!--    Chromium <span id="chrome-version"></span>,-->
+<!--    and Electron <span id="electron-version"></span>.-->
+
+<!--    &lt;!&ndash; You can also require other files to run in this process &ndash;&gt;-->
+<!--    <script src="./renderer.js"></script>-->
+<!--  </body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="aboutLogins.css">
+  </head>
+  <body>
+  <header>
+    <img id="branding-logo" src="aboutlogins.svg" alt="">
+
+    <button id="fxaccounts-enable-button">Sign in to Lockwise</button>
+  </header>
+  <section>
+    <input data-l10n-id="login-filter" class="filter" type="text" dir="auto" placeholder="Search Logins">
+  </section>
+  <section id="login-list">
+
+  </section>
+
+  <script src="./renderer.js"></script>
+
+  </body>
+</html>

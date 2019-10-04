@@ -1,0 +1,16 @@
+{
+  "name": "lockwise-desktop",
+  "version": "1.0.0",
+  "description": "lock-rust-desktop-wise-box",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/vladikoff/lock-rust-desktop-wise-box",
+  "devDependencies": {
+    "electron": "^6.0.11"
+  },
+  "dependencies": {
+    "electron-oauth-helper": "^5.0.1"
+  }
+}
